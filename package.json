@@ -1,0 +1,28 @@
+{
+  "name": "ecommers-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "vercel-start":"node server.js"
+  
+  },
+  "keywords": [],
+  "author": "Kuldeep Tatawat",
+  "license": "KK",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "concurrently": "^9.2.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.2",
+    "morgan": "^1.10.1",
+    "slugify": "^1.6.6"
+  }
+}
